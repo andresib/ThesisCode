@@ -1,0 +1,63 @@
+#+-----------------------------------------------------------------------+
+#|                         TRANSFER_CARD.DAT                             |
+#|                                                                       |
+#|     Author:    Juan Pablo Gomez                                       |
+#|     Based on:  Pierre Artoisenet (UCL-CP3)                            |
+#|                Olivier Mattelaer (UCL-CP3)                            |
+#+-----------------------------------------------------------------------+
+#+-----------------------------------------------------------------------+
+#|                                                                       |
+#|    To change the transfer function run ./bin/change_tf.py             |
+#|    Current parametrization :dbl_gauss_pt_jetJP                        |
+#|                                                                       |
+#+-----------------------------------------------------------------------+
+BLOCK TF_bjet_E
+#+-----------------------------------------------------------------------+
+#|    Parameter for particles: b                               |
+#|    Information: double gaussian with parameter depending of the energy|
+#|                 as A+B*sqrt(E)+C*E                                    | 
+#+-----------------------------------------------------------------------+
+     1       2.99124d2    # weight first gaussian a1=#1+#2*sqrt(E)*#3*E
+     2       -3.35902d1   # weight first gaussian 
+     3       0.922214d0   # weight first gaussian
+     4       -2.20601d1   # mean first gaussian m1=#4+#5*sqrt(E)+#6*E
+     5       4.12281d0    # mean first gaussian
+     6       -0.209319d0  # mean first gaussian
+     7       -3.78015d0   # sigma first gaussian s1=#7+#8*sqrt(E)+#9*E
+     8       0.845939d0   # sigma first gaussian
+     9       0.0179224d0  # sigma first gaussian
+     10      1.38607d3    # weight second gaussian b2=#10+#11*sqrt(E)*#12*E
+     11      -1.84835d2   # weight second gaussian
+     12      6.23952d0    # weight second gaussian
+     13      -5.78412d0   # mean second gaussian m2=#13+#14*sqrt(E)+#15*E
+     14	     1.35045d0 	  # mean second gaussian
+     15	     -0.188808d0  # mean second gaussian
+     16      6.66836d0    # sigma second gaussian s2=#16+#17*sqrt(E)+#18*E
+     17      -0.809726d0  # sigma second gaussian
+     18      0.184722d0   # sigma second gaussian
+
+BLOCK TF_lightjet_E
+#+-----------------------------------------------------------------------+
+#|    Parameter for particles: u,d,s,c,g                               |
+#|    Information: double gaussian with parameter depending of the energy|
+#|                 as A+B*sqrt(E)+C*E                                    |
+#+-----------------------------------------------------------------------+
+     19      3.07255d2   # weight first gaussian a1=#19+#20*sqrt(E)*#21*E
+     20      -4.03036d1  # weight first gaussian
+     21      1.33163d0   # weight first gaussian
+     22      -9.15954d1  # mean first gaussian m1=#22+#23*sqrt(E)+#24*E
+     23      1.48252d1   # mean first gaussian
+     24      -0.595015d0 # mean first gaussian
+     25      2.74866d0   # sigma first gaussian s1=#25+#26*sqrt(E)+#27*E
+     26      -0.290121d0 # sigma first gaussian
+     27      0.0625139d0 # sigma first gaussian
+     28      1.11847d3   # weight second gaussian b2=#28+#29*sqrt(E)*#30*E
+     29      -1.4658d2   # weight second gaussian
+     30      4.8283d0    # weight second gaussian
+     31	     1.83379d1 	 # mean	second gaussian	m2=#31+#32*sqrt(E)+#33*E
+     32      -2.91275d0  # mean second gaussian
+     33      0.0547018d0 # mean second gaussian
+     34      7.99956d0   # sigma second gaussian s2=#34+#35*sqrt(E)+#36*E
+     35      -1.2533d0   # sigma second gaussian
+     36      0.634201d0  # sigma second gaussian
+     

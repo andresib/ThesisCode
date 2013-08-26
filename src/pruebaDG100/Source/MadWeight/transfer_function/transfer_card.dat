@@ -1,0 +1,66 @@
+#+-----------------------------------------------------------------------+
+#|                         TRANSFER_CARD.DAT                             |
+#|                                                                       |
+#|     Author: Pierre Artoisenet (UCL-CP3)                               |
+#|             Olivier Mattelaer (UCL-CP3)                               |
+#+-----------------------------------------------------------------------+
+#|     This file is generated automaticly by MADWEIGHT                   |
+#|     card generation version: 2.0.0                                    |
+#+-----------------------------------------------------------------------+
+#|                                                                       |
+#|    To change the transfer function run ./bin/change_tf.py             |
+#|    Current parametrization :JP                                        |
+#|                                                                       |
+#+-----------------------------------------------------------------------+
+
+#+-----------------------------------------------------------------------+
+#|    Parameter for particles: u,d,s,c,g                                 |
+#|    Information: double gaussian with parameter depending of the energy 
+#|                                                                       |
+#+-----------------------------------------------------------------------+
+
+BLOCK TF_lightjet_E
+	19	 1d0 	 #
+	20	 1d0 	 #
+	21	 1d0 	 #
+	22	 1d0 	 #
+	23	 1d0 	 #
+	24	 1d0 	 #
+	25	 1d0 	 #
+	26	 1d0 	 #
+	27	 1d0 	 #
+	28	 1d0 	 #
+	29	 1d0 	 #
+	30	 1d0 	 #
+	31	 1d0 	 #
+	32	 1d0 	 #
+	33	 1d0 	 #
+	34	 1d0 	 #
+	35	 1d0 	 #
+	36	 1d0 	 #
+#+-----------------------------------------------------------------------+
+#|    Parameter for particles: b                                         |
+#|    Information: double gaussian with parameter depending of the energy 
+#|                                                                       |
+#+-----------------------------------------------------------------------+
+
+
+BLOCK TF_bjet_E
+	1	 1d0 	 #
+	2	 1d0 	 #
+	3	 1d0 	 #
+	4	 1d0 	 #
+	5	 1d0 	 #
+	6	 1d0 	 #
+	7	 1d0 	 #
+	8	 1d0 	 #
+	9	 1d0 	 #
+	10	 1d0 	 #
+	11	 1d0 	 #
+	12	 1d0 	 #
+	13	 1d0 	 #
+	14	 1d0 	 #
+	15	 1d0 	 #
+	16	 1d0 	 #
+	17	 1d0 	 #
+	18	 1d0 	 #
