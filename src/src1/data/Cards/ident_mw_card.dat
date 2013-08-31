@@ -1,0 +1,59 @@
+******************************************
+*                                        *
+*  Linking file between value and name   *
+*        O. Mattelaer   June 2007        * 
+*                                        * 
+* version 0.1.3				 *
+******************************************
+MW_perm         2        perm_with_b      logical    .false.	
+MW_perm         1        use_perm         logical    .true. 
+MW_run          6        nevents          integer    10000
+MW_run          7        final_prec       real       0.005
+MW_run          710      min_prec_cut1    real       0.001  
+MW_run          711      value_cut1       real       0.00
+MW_run          720      min_prec_cut2    real       0.0
+MW_run          721      value_cut2       real       0.0 
+MW_run          731      max_it_step1     integer    2 
+MW_run          732      max_it_step2     integer    16 
+MW_run          733      max_it_step3     integer    0 
+MW_run          734      max_it_step4     integer    0 
+MW_run          735      max_it_step5     integer    0 
+MW_run          histo    histo            logical    .false.
+MW_run          nwa      nwa              logical    .false.
+MW_run          isr      isr              integer    0
+TF_LIGHTJET_E             19       tf_lightjet_E_19 real  
+TF_LIGHTJET_E             20       tf_lightjet_E_20 real  
+TF_LIGHTJET_E             21       tf_lightjet_E_21 real  
+TF_LIGHTJET_E             22       tf_lightjet_E_22 real  
+TF_LIGHTJET_E             23       tf_lightjet_E_23 real  
+TF_LIGHTJET_E             24       tf_lightjet_E_24 real  
+TF_LIGHTJET_E             25       tf_lightjet_E_25 real  
+TF_LIGHTJET_E             26       tf_lightjet_E_26 real  
+TF_LIGHTJET_E             27       tf_lightjet_E_27 real  
+TF_LIGHTJET_E             28       tf_lightjet_E_28 real  
+TF_LIGHTJET_E             29       tf_lightjet_E_29 real  
+TF_LIGHTJET_E             30       tf_lightjet_E_30 real  
+TF_LIGHTJET_E             31       tf_lightjet_E_31 real  
+TF_LIGHTJET_E             32       tf_lightjet_E_32 real  
+TF_LIGHTJET_E             33       tf_lightjet_E_33 real  
+TF_LIGHTJET_E             34       tf_lightjet_E_34 real  
+TF_LIGHTJET_E             35       tf_lightjet_E_35 real  
+TF_LIGHTJET_E             36       tf_lightjet_E_36 real  
+TF_BJET_E             1       tf_bjet_E_1 real  
+TF_BJET_E             2       tf_bjet_E_2 real  
+TF_BJET_E             3       tf_bjet_E_3 real  
+TF_BJET_E             4       tf_bjet_E_4 real  
+TF_BJET_E             5       tf_bjet_E_5 real  
+TF_BJET_E             6       tf_bjet_E_6 real  
+TF_BJET_E             7       tf_bjet_E_7 real  
+TF_BJET_E             8       tf_bjet_E_8 real  
+TF_BJET_E             9       tf_bjet_E_9 real  
+TF_BJET_E             10       tf_bjet_E_10 real  
+TF_BJET_E             11       tf_bjet_E_11 real  
+TF_BJET_E             12       tf_bjet_E_12 real  
+TF_BJET_E             13       tf_bjet_E_13 real  
+TF_BJET_E             14       tf_bjet_E_14 real  
+TF_BJET_E             15       tf_bjet_E_15 real  
+TF_BJET_E             16       tf_bjet_E_16 real  
+TF_BJET_E             17       tf_bjet_E_17 real  
+TF_BJET_E             18       tf_bjet_E_18 real  
